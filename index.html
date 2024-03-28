@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a2203ee8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="hidder">
+        <div class="container">
+         <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">HOBBY</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>BSIT 1C STUDENT</p>
+            <h1>Hi, I'm <span>Shawn</span> <br> from philippines</h1>
+         </div>
+
+
+        </div>
+    
+    
+    
+        <!---------about---------------->
+    
+    </div>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="ABOUT-col-1">
+                <img src="user.png">
+            </div>
+            <div class="ABOUT-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I'm Shawn Michael Montebon Batestel and I'm 19 years old and i live in basak, kagudoy lapu-lapu city. I'm very approchable ang teachable person. i've been graduated at Asian learning center wayback 2023. i got my CSS nc2 and I'm now an CSS NC2 holder. I'm aspiring to be a senior developer.</p>
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Sport</span><br>Volleyball</li>
+                    <li><span>Instrument</span><br>Guitar</li>
+                    <li><span>Online game</span><br>Mobile legends</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2022-Current</span><br>CSS NC2 Holder <br>Install and Configure computer system <br> Set-up Computer Networks <br> Set-up Computer Servers <br> Maintain and Repair Computer Systems and Networks</li>
+                    
+                </ul>
+             </div>
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2023-Current</span><br>Lapu-Lapu City College</li>
+                    <li><span>2020-2022</span><br>Asian Learning Center</li>
+                    <li><span>2016-2020</span><br>Bankal National High School</li>
+                </ul>
+             </div>
+
+           
+           
+           
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!---------Services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Install and Configure computer system</h2>
+                    <p>Installation (or setup) of a computer program (including device drivers and plugins), is the act of making the program ready for execution. Installation refers to the particular configuration of software or hardware with a view to making it usable with the computer.</p>
+                <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Set-up Computer Networks</h2>
+                    <p>To connect additional devices with a wired network, connect each end of the ethernet cable to the computer and the router. For a wireless network, each device can connect through Wi-Fi.</p>
+                <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Set-up Computer Servers</h2>
+                    <p>Many small businesses will boost their productivity and become more efficient by using a server. Servers store, manage, and deliver data to the workstations on a network. Typically, they are more powerful than an average workstation, providing enhanced security and easy integration with backup/recovery tools.</p>
+                <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Hobby</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="VB.png">
+                    <div class="layer">
+                        <h3>Volleyball</h3>
+                        <p>Volleyball is a non-invasive sports game of a net type where there are two competing teams of six members who control the ball with parts of their body. There are both offensive and defensive tasks and one game event may result in both winning and losing points.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="guitar.png">
+                    <div class="layer">
+                        <h3>Guitar</h3>
+                        <p>a stringed instrument with a flat body, a long neck with frets, and usually six strings that are played with the fingers or with a pick. guitarist.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ML.png">
+                    <div class="layer">
+                        <h3>Mobile Legends</h3>
+                        <p>Mobile Legends: Bang Bang (MLBB) is a mobile multiplayer online battle arena (MOBA) game developed and published by Moonton, a subsidiary of ByteDance. Released in 2016, the game grew in popularity; most prominently in Southeast Asia.[4]</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--------contact------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> bshawn123115@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>09638086321</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100091977355197"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/SGaming21136"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/batestelshawn/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shawn-gaming-37b297300/"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="image/mypdf.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                   
+                   
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Shawn, Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+
+
+
+
+   <script src="index.js"></script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLVdYw0wfcbhBOrDwrnU3Ul4KUtrFy7N4E1l_WDmEVh99M3X24nQoGakP50zQxzVBv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
